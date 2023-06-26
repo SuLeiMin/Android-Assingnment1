@@ -9,8 +9,8 @@ import com.example.myapplication.databinding.ActivitySecondBinding
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMainBinding
-    private lateinit var binding2: ActivitySecondBinding
+    private lateinit var binding: ActivityMainBinding//main
+    private lateinit var binding2: ActivitySecondBinding//second
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
